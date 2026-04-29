@@ -33,9 +33,7 @@ nlp-spam-detection-bow/
 ```bash
 git clone https://github.com/poojary-nikesh1612/nlp-spam-detection-bow.git
 cd nlp-spam-detection-bow
-```
 
-```bash
 pip install -r requirements.txt
 python spam_detection.py
 ```
