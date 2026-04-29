@@ -18,7 +18,7 @@ This is a mini NLP project that classifies messages as **Spam** or **Ham (Not Sp
 6. Evaluate using `classification_report()`
 
 ## Project Structure
-
+```
 nlp-spam-detection-bow/
 │
 ├── spam_detection.py
@@ -26,8 +26,14 @@ nlp-spam-detection-bow/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## How to Run
+
+```bash
+git clone https://github.com/poojary-nikesh1612/nlp-spam-detection-bow.git
+cd nlp-spam-detection-bow
+```
 
 ```bash
 pip install -r requirements.txt
@@ -37,7 +43,3 @@ python spam_detection.py
 ## Result
 
 The model predicts whether a message is spam or ham using Bag of Words and Naive Bayes.
-
-## Author
-
-Built as part of learning Natural Language Processing (NLP).
